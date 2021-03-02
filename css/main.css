@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c100d3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.main-container .section {
+  height: 100vh;
+}
+
+.main-container .home-section {
+  height: 100vh;
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container .home-section .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(23, 0, 104, 0.596);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .home-section .overlay .home-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 50%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-container .home-section .overlay .home-content .logo {
+  height: 10%;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+}
+
+.main-container .home-section .overlay .home-content h1 {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+  line-height: 10px;
+}
+
+.main-container .home-section .overlay .home-content p {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.main-container .home-section .overlay .home-content .home-btn {
+  border: none;
+  width: 170px;
+  height: 40px;
+  outline: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  background: #c62a88;
+}
+
+.main-container .home-section .overlay .home-content .home-btn:hover {
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  -webkit-box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+          box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main-container .home-section .overlay .home-contentTwo {
+  width: 45%;
+}
+
+.main-container .home-section .overlay .home-contentTwo img {
+  height: 450px;
+}
+
+.main-container .about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  position: relative;
+  height: auto;
+  background: #fafafa;
+}
+
+.main-container .about-section .memphiselements {
+  position: absolute;
+  height: 10%;
+}
+
+.main-container .about-section .memphiselements:nth-child(1) {
+  position: absolute;
+  top: 20px;
+  left: 130px;
+}
+
+.main-container .about-section .memphiselements:nth-child(2) {
+  position: absolute;
+  top: 320px;
+  right: 130px;
+}
+
+.main-container .about-section h1 {
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b006e;
+}
+
+.main-container .about-section P {
+  width: 70%;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.main-container .about-section .about-services {
+  height: 50%;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-container .about-section .about-services .about-card {
+  height: 300px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 7px;
+  border-bottom: 10px solid #4b006e;
+  background: #21006e;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  color: white;
+}
+
+.main-container .about-section .about-services .about-card .icon {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+}
+
+.main-container .about-section .about-services .about-card h1 {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.main-container .about-section .about-services .about-card p {
+  font-size: 12px;
+  text-align: center;
+  width: 90%;
+}
+
+.main-container .about-section .about-services .about-card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+/*# sourceMappingURL=main.css.map */
