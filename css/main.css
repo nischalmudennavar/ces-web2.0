@@ -173,10 +173,11 @@ body {
 
 .main-container .about-section P {
   width: 70%;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans;
   text-align: justify;
   font-weight: 500;
+  margin: 30px;
 }
 
 .main-container .about-section .about-services {
@@ -231,7 +232,7 @@ body {
 }
 
 .main-container .about-section .about-services .about-card p {
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   width: 90%;
 }
@@ -241,5 +242,77 @@ body {
           transform: translateY(-10px);
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
+}
+
+.main-container .domains {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container .domains h1 {
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b006e;
+}
+
+.main-container .domains p {
+  font-size: 16px;
+  width: 50%;
+}
+
+.main-container .domains .domain-cards {
+  width: 70%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-container .domains .domain-cards .subdomains {
+  height: 200px;
+  width: 200px;
+  color: #292929;
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .domains .domain-cards .subdomains img {
+  width: 100px;
+}
+
+.main-container .domains .domain-cards .subdomains h2 {
+  text-align: center;
+  color: #545454;
 }
 /*# sourceMappingURL=main.css.map */
