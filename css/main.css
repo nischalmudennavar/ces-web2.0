@@ -3,6 +3,7 @@ body {
   padding: 0;
   -ms-scroll-snap-type: proximity;
       scroll-snap-type: proximity;
+  font-family: 'Poppins',san-serif;
 }
 
 /* width */
@@ -85,14 +86,14 @@ body {
 .main-container .home-section .overlay .home-content h1 {
   color: #ffffff;
   font-size: 80px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-left: 50px;
   line-height: 10px;
 }
 
 .main-container .home-section .overlay .home-content p {
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 80%;
   font-size: 30px;
   margin-left: 50px;
@@ -168,15 +169,15 @@ body {
 }
 
 .main-container .about-section h1 {
-  font-size: 60px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 55px;
+  font-family: 'Poppins', sans-serif;
   color: #4b006e;
 }
 
 .main-container .about-section P {
   width: 70%;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans;
+  font-family: 'Poppins', sans-serif;
   text-align: justify;
   font-weight: 500;
   margin: 30px;
@@ -265,7 +266,7 @@ body {
 }
 
 .main-container .domains h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #4b006e;
 }
@@ -321,6 +322,192 @@ body {
 .main-container .domains .domain-cards .subdomains h2 {
   text-align: center;
   color: #545454;
+}
+
+.main-container .partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+}
+
+.main-container .partners h1 {
+  font-size: 55px;
+  font-family: 'Poppins', sans-serif;
+  color: #4b006e;
+}
+
+.main-container .team {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  height: auto;
+  padding: 30px;
+}
+
+.main-container .team .chinmay {
+  height: 300px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .team .chinmay .avatar {
+  height: 250px;
+}
+
+.main-container .team .chinmay div.description {
+  width: 70%;
+  height: 100%;
+}
+
+.main-container .team .chinmay div.description .title h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #30006b;
+}
+
+.main-container .team .chinmay div.description .title h4 {
+  font-size: 20px;
+  margin-top: -20px;
+  color: #555;
+}
+
+.main-container .team .chinmay div.description p {
+  text-align: justify;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-container .team .Riddhi {
+  height: 320px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .team .Riddhi .avatar {
+  height: 250px;
+}
+
+.main-container .team .Riddhi div.description {
+  width: 70%;
+  height: 100%;
+}
+
+.main-container .team .Riddhi div.description .title h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #30006b;
+}
+
+.main-container .team .Riddhi div.description .title h4 {
+  font-size: 20px;
+  margin-top: -20px;
+  color: #555;
+}
+
+.main-container .team .Riddhi div.description p {
+  text-align: justify;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-container .team .theTeam {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.main-container .team .theTeam .member {
+  height: 320px;
+  width: 250px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #d4d4d4;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.main-container .team .theTeam .member .memavatar {
+  height: 200px;
+  margin: 10px;
+}
+
+.main-container .team .theTeam .member .member-title h2 {
+  font-size: 22px;
+  line-height: 10px;
+}
+
+.main-container .team .theTeam .member .member-title h3 {
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.main-container .team .theTeam .member .member-title p {
+  font-size: 18px;
+  line-height: 1px;
 }
 
 .main-container footer {
