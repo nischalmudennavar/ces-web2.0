@@ -6,31 +6,12 @@ body{
     
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(193, 0, 211); 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
 
 $heading-color:#200542;
 .main-container{
 
     width:100%;
-    height:auto;
+    
     overflow-x: hidden;
 
     .section{
@@ -40,18 +21,16 @@ $heading-color:#200542;
 
         height:100vh;
        
-        background-image: url('../assets/bg.jpg');
+        // background-image: url('../assets/bg.jpg');
         background-repeat: no-repeat;
         background-size:cover;
        
-        // display:flex;
-        // justify-content: center;
-        // align-items:center;
+       
         
        .overlay{
             height:100%;
             width:100%;
-            background-color: rgba(23, 0, 104, 0.596);
+            background-color: rgb(23, 0, 104);
             display:flex;
             justify-content: center;
             align-items:center;
@@ -308,9 +287,165 @@ $heading-color:#200542;
             font-family: 'Poppins', sans-serif;
             color:rgb(75, 0, 110);
         }
+        .partner-container{
+            width:70%;
+            height:auto;
+           
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            flex-wrap: wrap;
+            margin-top:10px;
+            .subdomains{
+
+                height:200px;
+                width:200px;
+                background: rgb(245, 245, 245);
+                padding:20px;
+                color: rgb(41, 41, 41);
+                border-radius: 5px;;
+                margin:30px;
+                display:flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items:center;
+
+                img{
+                    width:100px;
+
+                }
+                h2{
+                    text-align:center;
+                    color: rgb(84, 84, 84);
+                }
+
+            }
+        }
 
     }
+    .our-team{
 
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        height:100vh;
+        h1{
+            font-size: 55px;
+        }
+        .chinmay{
+
+            height:300px;
+            width:60%;
+            margin:30px;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            .avatar{
+                height:250px;
+
+            }
+             div.description{
+                width:70%;
+                height:100%;
+                .title{
+
+                   
+                    
+
+                    h1{
+                        font-size: 35px;
+                        font-weight: 700;
+                        margin-top:20px;
+                        color:#30006b;
+                    }
+                    h4{
+                        font-size:20px;
+                        margin-top:-20px;
+                        color: #555;
+                        
+                    }
+
+                }
+                p{
+                    text-align:justify;
+                    color: #000;
+                    font-size:16px;
+                    font-weight: 500;
+                }
+               
+            }
+
+
+            
+
+        }
+        .riddhi{
+            height:300px;
+            width:60%;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:30px;
+            .avatar{
+                height:250px;
+
+            }
+            div.description{
+                width:70%;
+                height:100%;
+                .title{
+
+                   
+                    
+
+                    h1{
+                        font-size: 35px;
+                        font-weight: 700;
+                        margin-top:20px;
+                        color:#30006b;
+                    }
+                    h4{
+                        font-size:20px;
+                        margin-top:-20px;
+                        color: #555;
+                        
+                    }
+
+                }
+                p{
+                    text-align:justify;
+                    color: #000;
+                    font-size:16px;
+                    font-weight: 500;
+                }
+               
+            }
+
+        }
+        .totheteamspage{
+
+            border:none;
+               padding:15px;
+                outline: none;
+                font-size:17px;
+                color:white;
+                border-radius: 5px;;
+                margin-left:50px;
+                transition:all 100ms ease-in;
+                
+                background: #c62a88;
+                &:hover{
+                    
+                    cursor: pointer;
+                    transition:all 100ms ease-in;
+                    box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+                    transform:scale(1.1);
+                }
+        }
+        
+
+    }
 
     .team{
         background: rgb(255, 255, 255);
@@ -321,93 +456,8 @@ $heading-color:#200542;
         font-family: 'Poppins', sans-serif;
         height:auto;
         padding:30px;
-        .chinmay{
-
-            height:300px;
-            width:60%;
-           
-            display:flex;
-            justify-content: space-around;
-            align-items: center;
-            .avatar{
-                height:250px;
-
-            }
-            div.description{
-                width:70%;
-                height:100%;
-                .title{
-
-                   
-                    
-
-                    h1{
-                        font-size: 35px;
-                        font-weight: 700;
-                        margin-top:20px;
-                        color:#30006b;
-                    }
-                    h4{
-                        font-size:20px;
-                        margin-top:-20px;
-                        color: #555;
-                        
-                    }
-
-                }
-                p{
-                    text-align:justify;
-                    color: #000;
-                    font-size:16px;
-                    font-weight: 500;
-                }
-               
-            }
-
-        }
-        .Riddhi{
-
-            height:320px;
-            width:60%;
-            
-            display:flex;
-            justify-content: space-around;
-            align-items: center;
-            .avatar{
-                height:250px;
-
-            }
-            div.description{
-                width:70%;
-                height:100%;
-                .title{
-
-                   
-                    
-
-                    h1{
-                        font-size: 35px;
-                        font-weight: 700;
-                        margin-top:20px;
-                        color:#30006b;
-                    }
-                    h4{
-                        font-size:20px;
-                        margin-top:-20px;
-                        color: #555;
-                        
-                    }
-
-                }
-                p{
-                    text-align:justify;
-                    color: #000;
-                    font-size:16px;
-                    font-weight: 500;
-                }
-               
-            }
-        }
+       
+      
         .theTeam{
 
             height:100vh;
@@ -416,7 +466,7 @@ $heading-color:#200542;
             justify-content: center;
             align-items: flex-start;
             flex-wrap: wrap;
-            width:80%;
+            width:70%;
             margin:auto;
             
 
@@ -425,12 +475,18 @@ $heading-color:#200542;
                 width:250px;
                 text-align: center;
                 display:flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: center;
                 flex-direction: column;
-                background: rgb(212, 212, 212);
+                background: rgb(255, 255, 255);
                 border-radius: 20px;;
-                margin:30px;
+                margin:15px;
+                position: relative;
+                .job{
+                    height:60px;
+                    position: absolute;
+                    left:0;
+                }
                 .memavatar{
                     height:200px;
                     margin:10px;
@@ -442,11 +498,11 @@ $heading-color:#200542;
                     line-height:10px;
                 }
                 h3{
-                    font-size:20px;;
+                    font-size:19px;;
                     line-height:15px;
                 }
                 p{
-                    font-size:18px;;
+                    font-size:15px;;
                     line-height:1px;
                 }
                }
@@ -469,8 +525,7 @@ $heading-color:#200542;
         flex-direction: column;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:rgb(181, 181, 181);
-        position:relative;
-        bottom:0;
+     
         
         .footer-others{
 

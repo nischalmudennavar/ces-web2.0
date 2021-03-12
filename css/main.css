@@ -6,29 +6,8 @@ body {
   font-family: 'Poppins',san-serif;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #c100d3;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 .main-container {
   width: 100%;
-  height: auto;
   overflow-x: hidden;
 }
 
@@ -38,7 +17,6 @@ body {
 
 .main-container .home-section {
   height: 100vh;
-  background-image: url("../assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,7 +24,7 @@ body {
 .main-container .home-section .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(23, 0, 104, 0.596);
+  background-color: #170068;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,6 +325,184 @@ body {
   color: #4b006e;
 }
 
+.main-container .partners .partner-container {
+  width: 70%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.main-container .partners .partner-container .subdomains {
+  height: 200px;
+  width: 200px;
+  background: whitesmoke;
+  padding: 20px;
+  color: #292929;
+  border-radius: 5px;
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .partners .partner-container .subdomains img {
+  width: 100px;
+}
+
+.main-container .partners .partner-container .subdomains h2 {
+  text-align: center;
+  color: #545454;
+}
+
+.main-container .our-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.main-container .our-team h1 {
+  font-size: 55px;
+}
+
+.main-container .our-team .chinmay {
+  height: 300px;
+  width: 60%;
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .our-team .chinmay .avatar {
+  height: 250px;
+}
+
+.main-container .our-team .chinmay div.description {
+  width: 70%;
+  height: 100%;
+}
+
+.main-container .our-team .chinmay div.description .title h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #30006b;
+}
+
+.main-container .our-team .chinmay div.description .title h4 {
+  font-size: 20px;
+  margin-top: -20px;
+  color: #555;
+}
+
+.main-container .our-team .chinmay div.description p {
+  text-align: justify;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-container .our-team .riddhi {
+  height: 300px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px;
+}
+
+.main-container .our-team .riddhi .avatar {
+  height: 250px;
+}
+
+.main-container .our-team .riddhi div.description {
+  width: 70%;
+  height: 100%;
+}
+
+.main-container .our-team .riddhi div.description .title h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #30006b;
+}
+
+.main-container .our-team .riddhi div.description .title h4 {
+  font-size: 20px;
+  margin-top: -20px;
+  color: #555;
+}
+
+.main-container .our-team .riddhi div.description p {
+  text-align: justify;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-container .our-team .totheteamspage {
+  border: none;
+  padding: 15px;
+  outline: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  background: #c62a88;
+}
+
+.main-container .our-team .totheteamspage:hover {
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  -webkit-box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+          box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .main-container .team {
   background: white;
   display: -webkit-box;
@@ -367,90 +523,6 @@ body {
   padding: 30px;
 }
 
-.main-container .team .chinmay {
-  height: 300px;
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main-container .team .chinmay .avatar {
-  height: 250px;
-}
-
-.main-container .team .chinmay div.description {
-  width: 70%;
-  height: 100%;
-}
-
-.main-container .team .chinmay div.description .title h1 {
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 20px;
-  color: #30006b;
-}
-
-.main-container .team .chinmay div.description .title h4 {
-  font-size: 20px;
-  margin-top: -20px;
-  color: #555;
-}
-
-.main-container .team .chinmay div.description p {
-  text-align: justify;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.main-container .team .Riddhi {
-  height: 320px;
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main-container .team .Riddhi .avatar {
-  height: 250px;
-}
-
-.main-container .team .Riddhi div.description {
-  width: 70%;
-  height: 100%;
-}
-
-.main-container .team .Riddhi div.description .title h1 {
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 20px;
-  color: #30006b;
-}
-
-.main-container .team .Riddhi div.description .title h4 {
-  font-size: 20px;
-  margin-top: -20px;
-  color: #555;
-}
-
-.main-container .team .Riddhi div.description p {
-  text-align: justify;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
-}
-
 .main-container .team .theTeam {
   height: 100vh;
   display: -webkit-box;
@@ -465,7 +537,7 @@ body {
           align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -476,8 +548,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -485,9 +558,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #d4d4d4;
+  background: white;
   border-radius: 20px;
-  margin: 30px;
+  margin: 15px;
+  position: relative;
+}
+
+.main-container .team .theTeam .member .job {
+  height: 60px;
+  position: absolute;
+  left: 0;
 }
 
 .main-container .team .theTeam .member .memavatar {
@@ -501,12 +581,12 @@ body {
 }
 
 .main-container .team .theTeam .member .member-title h3 {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 15px;
 }
 
 .main-container .team .theTeam .member .member-title p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1px;
 }
 
@@ -531,8 +611,6 @@ body {
           flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #b5b5b5;
-  position: relative;
-  bottom: 0;
 }
 
 .main-container footer .footer-others {

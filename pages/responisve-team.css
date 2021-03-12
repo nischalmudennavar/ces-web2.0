@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+
+}
+.main-container{
+
+    min-height:100vh;
+    width:100vw;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.team{
+  
+    width:100%;
+    background: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+    padding:30px;
+}
+.theTeam{
+    
+    display:flex;
+    margin-top:30px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width:70%;
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+.member{
+    height:320px;;
+    width:250px;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;;
+    margin:15px;
+    position: relative;
+}
+.job{
+    height:60px;
+    position: absolute;
+    left:0;
+}
+.memavatar{
+    height:200px;
+    margin:10px;
+}
+h2{
+    font-size:22px;;
+    line-height:10px;
+}
+h3{
+    font-size:19px;;
+    line-height:15px;
+}
+p{
+    font-size:15px;;
+    line-height:1px;
+}
+
+footer{
+        height:auto;;
+        width:100vw;
+        text-align:center;
+        background: rgb(22, 22, 22);
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(181, 181, 181);
+}
+footer .footer-others{
+
+    width: 90%;;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+footer .footer-logo{
+    height:100px;
+    margin:30px;
+}
+footer .contactUs{
+
+    font-size: 20px;;
+}
+footer a{
+    text-decoration: none;
+    text-emphasis: none;;
+    color:inherit;
+}
+
+.socials{
+
+    filter: invert(100);
+    height:40px;
+    margin:20px;
+    opacity: 0.5;
+}
+footer p.location{
+ 
+    line-height:30px;
+
+}
