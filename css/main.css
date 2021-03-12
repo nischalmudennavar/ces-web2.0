@@ -4,10 +4,14 @@ body {
   -ms-scroll-snap-type: proximity;
       scroll-snap-type: proximity;
   font-family: 'Poppins',san-serif;
+  overflow-x: hidden;
 }
 
 .main-container {
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   overflow-x: hidden;
 }
 
@@ -17,14 +21,15 @@ body {
 
 .main-container .home-section {
   height: 100vh;
+  background-image: url("../assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .main-container .home-section .overlay {
   height: 100%;
-  width: 100%;
-  background-color: #170068;
+  width: 100vw;
+  background-color: rgba(23, 0, 104, 0.466);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,9 +187,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -210,6 +214,7 @@ body {
   font-size: 25px;
   text-decoration: none;
   color: white;
+  line-height: 1px;
 }
 
 .main-container .about-section .about-services .about-card p {
@@ -240,6 +245,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: justify;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -247,6 +253,7 @@ body {
   font-size: 55px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #4b006e;
+  font-weight: 400;
 }
 
 .main-container .domains p {
@@ -255,7 +262,7 @@ body {
 }
 
 .main-container .domains .domain-cards {
-  width: 70%;
+  width: 80%;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -374,126 +381,137 @@ body {
 }
 
 .main-container .our-team {
+  height: auto;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100vh;
 }
 
 .main-container .our-team h1 {
+  text-align: center;
   font-size: 55px;
+  color: #4b006e;
 }
 
-.main-container .our-team .chinmay {
-  height: 300px;
-  width: 60%;
-  margin: 30px;
+.main-container .our-team .executives {
+  height: auto;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-container .our-team .executives .chinmay {
+  height: auto;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.main-container .our-team .executives .chinmay .avatar {
+  height: 200px;
+  padding: 10px;
+}
+
+.main-container .our-team .executives .chinmay .description {
+  margin: 20px;
+}
+
+.main-container .our-team .executives .chinmay .description .title h1 {
+  text-align: left;
+  font-size: 30px;
+  line-height: 10px;
+}
+
+.main-container .our-team .executives .chinmay .description .title h4 {
+  text-align: left;
+}
+
+.main-container .our-team .executives .chinmay .description p {
+  text-align: justify;
+}
+
+.main-container .our-team .executives .riddhi {
+  height: auto;
+  width: 50%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.main-container .our-team .chinmay .avatar {
-  height: 250px;
+.main-container .our-team .executives .riddhi .avatar {
+  height: 200px;
+  padding: 10px;
 }
 
-.main-container .our-team .chinmay div.description {
-  width: 70%;
-  height: 100%;
+.main-container .our-team .executives .riddhi .description {
+  margin: 20px;
 }
 
-.main-container .our-team .chinmay div.description .title h1 {
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 20px;
-  color: #30006b;
+.main-container .our-team .executives .riddhi .description .title h1 {
+  text-align: left;
+  font-size: 30px;
 }
 
-.main-container .our-team .chinmay div.description .title h4 {
-  font-size: 20px;
-  margin-top: -20px;
-  color: #555;
+.main-container .our-team .executives .riddhi .description .title h4 {
+  text-align: left;
 }
 
-.main-container .our-team .chinmay div.description p {
+.main-container .our-team .executives .riddhi .description p {
   text-align: justify;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
 }
 
-.main-container .our-team .riddhi {
-  height: 300px;
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 30px;
-}
-
-.main-container .our-team .riddhi .avatar {
-  height: 250px;
-}
-
-.main-container .our-team .riddhi div.description {
-  width: 70%;
-  height: 100%;
-}
-
-.main-container .our-team .riddhi div.description .title h1 {
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 20px;
-  color: #30006b;
-}
-
-.main-container .our-team .riddhi div.description .title h4 {
-  font-size: 20px;
-  margin-top: -20px;
-  color: #555;
-}
-
-.main-container .our-team .riddhi div.description p {
-  text-align: justify;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.main-container .our-team .totheteamspage {
+.main-container .our-team .executives .totheteamspage {
   border: none;
-  padding: 15px;
+  padding: 12px;
   outline: none;
   font-size: 17px;
   color: white;
   border-radius: 5px;
-  margin-left: 50px;
+  margin: 30px;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
   background: #c62a88;
 }
 
-.main-container .our-team .totheteamspage:hover {
+.main-container .our-team .executives .totheteamspage:hover {
   cursor: pointer;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
@@ -590,7 +608,7 @@ body {
   line-height: 1px;
 }
 
-.main-container footer {
+footer {
   height: auto;
   width: 100vw;
   background: #161616;
@@ -602,6 +620,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -613,7 +632,7 @@ body {
   color: #b5b5b5;
 }
 
-.main-container footer .footer-others {
+footer .footer-others {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -627,23 +646,23 @@ body {
       flex-wrap: wrap;
 }
 
-.main-container footer .footer-others .footer-logo {
+footer .footer-others .footer-logo {
   height: 100px;
   margin: 30px;
 }
 
-.main-container footer .footer-others .contactUs {
+footer .footer-others .contactUs {
   font-size: 20px;
 }
 
-.main-container footer .footer-others .contactUs a {
+footer .footer-others .contactUs a {
   text-decoration: none;
   -webkit-text-emphasis: none;
           text-emphasis: none;
   color: inherit;
 }
 
-.main-container footer .footer-others .contactUs a img {
+footer .footer-others .contactUs a img {
   -webkit-filter: invert(100);
           filter: invert(100);
   height: 40px;

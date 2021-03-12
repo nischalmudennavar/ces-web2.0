@@ -1,1 +1,192 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+@media screen and (max-width: 800px) {
+  .main-container .home-section .overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .main-container .home-section .overlay .home-content {
+    width: 100%;
+    height: auto;
+  }
+  .main-container .home-section .overlay .home-content h1 {
+    font-size: 30px;
+  }
+  .main-container .home-section .overlay .home-content p {
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+  }
+  .main-container .home-section .overlay svg {
+    height: 200px;
+    position: relative;
+    left: -50px;
+  }
+  .main-container .about-section h1 {
+    font-size: 30px;
+  }
+  .main-container .about-section .about-services {
+    width: 100%;
+  }
+  .main-container .about-section .about-services .about-card {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+  .main-container .about-section .about-services .about-card .icon {
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 25px;
+  }
+  .main-container .about-section .about-services .about-card h1 {
+    font-size: 15px;
+    line-height: 10px;
+    position: relative;
+    top: 30px;
+  }
+  .main-container .about-section .about-services .about-card p {
+    font-size: 10px;
+  }
+  .main-container .about-section p {
+    width: 90%;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .main-container .domains h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .main-container .domains p {
+    width: 90%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  .main-container .domains .domain-cards {
+    width: 100%;
+    height: auto;
+  }
+  .main-container .domains .domain-cards .subdomains {
+    height: 80px;
+    width: 70px;
+  }
+  .main-container .domains .domain-cards .subdomains img {
+    width: 50px;
+    height: auto;
+  }
+  .main-container .domains .domain-cards .subdomains h2 {
+    font-size: 15px;
+  }
+  .main-container .partners h1 {
+    font-size: 30px;
+  }
+  .main-container .partners .partner-container {
+    width: 100%;
+  }
+  .main-container .partners .partner-container .subdomains {
+    height: 80px;
+    width: 70px;
+  }
+  .main-container .partners .partner-container .subdomains img {
+    width: 50px;
+    height: auto;
+  }
+  .main-container .partners .partner-container .subdomains h2 {
+    font-size: 15px;
+  }
+  .main-container .our-team h1 {
+    font-size: 30px;
+  }
+  .main-container .our-team .executives {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-container .our-team .executives .chinmay {
+    width: 85%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-container .our-team .executives .chinmay .avatar {
+    height: 200px;
+  }
+  .main-container .our-team .executives .chinmay .description {
+    text-align: center;
+  }
+  .main-container .our-team .executives .chinmay .description .title h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .main-container .our-team .executives .chinmay .description .title h4 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .main-container .our-team .executives .chinmay .description p {
+    text-align: justify;
+  }
+  .main-container .our-team .executives .riddhi {
+    width: 85%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-container .our-team .executives .riddhi .avatar {
+    height: 200px;
+  }
+  .main-container .our-team .executives .riddhi .description {
+    text-align: center;
+  }
+  .main-container .our-team .executives .riddhi .description .title h1 {
+    text-align: center;
+  }
+  .main-container .our-team .executives .riddhi .description .title h4 {
+    text-align: center;
+  }
+  .main-container .our-team .executives .riddhi .description p {
+    text-align: justify;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

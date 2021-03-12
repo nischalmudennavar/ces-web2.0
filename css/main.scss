@@ -3,6 +3,7 @@ body{
     padding:0;
     scroll-snap-type: proximity;
     font-family :'Poppins',san-serif;
+    overflow-x: hidden;
     
 }
 
@@ -11,6 +12,7 @@ $heading-color:#200542;
 .main-container{
 
     width:100%;
+    height:fit-content;
     
     overflow-x: hidden;
 
@@ -21,7 +23,7 @@ $heading-color:#200542;
 
         height:100vh;
        
-        // background-image: url('../assets/bg.jpg');
+        background-image: url('../assets/bg.jpg');
         background-repeat: no-repeat;
         background-size:cover;
        
@@ -29,12 +31,12 @@ $heading-color:#200542;
         
        .overlay{
             height:100%;
-            width:100%;
-            background-color: rgb(23, 0, 104);
+            width:100vw;
+            background-color: rgba(23, 0, 104, 0.466);
             display:flex;
             justify-content: center;
             align-items:center;
-           
+            
            .home-content{
 
             display:flex;
@@ -171,7 +173,7 @@ $heading-color:#200542;
                 height:300px;;
                 width:250px;
                 display:flex;
-                justify-content:center;
+                justify-content:space-around;
                 align-items:center;
                 flex-direction: column;
             //    border:5px solid rgba(0, 153, 255, 0.534);
@@ -191,6 +193,7 @@ $heading-color:#200542;
                   font-size:25px;
                   text-decoration:none;
                   color:white;
+                  line-height: 1px;;
                   
 
               }
@@ -221,12 +224,14 @@ $heading-color:#200542;
         align-items:center;
         height:auto;;
         flex-direction: column;
+        text-align: justify;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         h1{
             
             font-size: 55px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color:rgb(75, 0, 110);
+            font-weight: 400;
             
         }
         p{
@@ -237,7 +242,7 @@ $heading-color:#200542;
         }
         .domain-cards{
 
-            width:70%;
+            width:80%;
             height:auto;
            
             display:flex;
@@ -324,125 +329,124 @@ $heading-color:#200542;
 
     }
     .our-team{
-
+        height:auto;
+        width:100vw;
         display:flex;
-        justify-content: flex-start;
+        justify-content:center;align-items:center;
         flex-direction: column;
-        align-items: center;
-        height:100vh;
+
         h1{
-            font-size: 55px;
-        }
-        .chinmay{
+            text-align:center;
+            font-size:55px;
+            color:#4b006e;
 
-            height:300px;
-            width:60%;
-            margin:30px;
+        }
+        .executives{
+            height:auto;
+            width:100%;
             display:flex;
-            justify-content: space-around;
-            align-items: center;
-            .avatar{
-                height:250px;
+            justify-content:center;align-items:center;
+            flex-direction: column;
 
-            }
-             div.description{
-                width:70%;
-                height:100%;
-                .title{
+            .chinmay{
+                height:auto;
+                width:50%;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                padding:10px;
+                // background: rgb(223, 223, 223);
+                // border-radius: 10px;;
+                margin:10px;
 
-                   
-                    
-
-                    h1{
-                        font-size: 35px;
-                        font-weight: 700;
-                        margin-top:20px;
-                        color:#30006b;
-                    }
-                    h4{
-                        font-size:20px;
-                        margin-top:-20px;
-                        color: #555;
-                        
-                    }
-
+                .avatar{
+                    height:200px;
+                    padding:10px;
                 }
-                p{
-                    text-align:justify;
-                    color: #000;
-                    font-size:16px;
-                    font-weight: 500;
-                }
-               
-            }
+                .description{
+                    margin:20px;
+                    .title{
+                        h1{
+                            text-align: left;;
+                            font-size:30px;
+                            line-height:10px;
+                            
+                        }
+                        h4{
 
-
-            
-
-        }
-        .riddhi{
-            height:300px;
-            width:60%;
-            display:flex;
-            justify-content: space-around;
-            align-items: center;
-            margin:30px;
-            .avatar{
-                height:250px;
-
-            }
-            div.description{
-                width:70%;
-                height:100%;
-                .title{
-
-                   
-                    
-
-                    h1{
-                        font-size: 35px;
-                        font-weight: 700;
-                        margin-top:20px;
-                        color:#30006b;
+                            text-align:left;
+                            
+                        }
                     }
-                    h4{
-                        font-size:20px;
-                        margin-top:-20px;
-                        color: #555;
-                        
+                    p{
+
+                        text-align: justify;
+
                     }
-
                 }
-                p{
-                    text-align:justify;
-                    color: #000;
-                    font-size:16px;
-                    font-weight: 500;
-                }
-               
             }
-
-        }
-        .totheteamspage{
-
-            border:none;
-               padding:15px;
-                outline: none;
-                font-size:17px;
-                color:white;
-                border-radius: 5px;;
-                margin-left:50px;
-                transition:all 100ms ease-in;
+            .riddhi{
+                height:auto;
+                width:50%;
+                padding:10px;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                // background: rgb(223, 223, 223);
+                // border-radius: 10px;;
                 
-                background: #c62a88;
-                &:hover{
-                    
-                    cursor: pointer;
-                    transition:all 100ms ease-in;
-                    box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
-                    transform:scale(1.1);
+
+
+                .avatar{
+                    height:200px;
+                    padding:10px;
                 }
+                .description{
+                    margin:20px;
+                    .title{
+                        h1{
+                            text-align: left;;
+                            font-size:30px;
+                            
+                            
+                        }
+                        h4{
+
+                            text-align:left;
+
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+            }
+            .totheteamspage{
+
+                    border:none;
+                    padding:12px;
+                    outline: none;
+                    font-size:17px;
+                    color:white;
+                    border-radius: 5px;;
+                    margin:30px;
+                    transition:all 100ms ease-in;
+                    
+                    background: #c62a88;
+                   &:hover{
+                       
+                       cursor: pointer;
+                       transition:all 100ms ease-in;
+                       box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+                       transform:scale(1.1);
+                   }
+           }
+
         }
+      
+        
+       
         
 
     }
@@ -513,53 +517,57 @@ $heading-color:#200542;
 
     }
 
-    footer{
+   
+}
 
-        height:auto;;
-        width:100vw;
-        background: rgb(22, 22, 22);
-        display:flex;
-        flex-wrap: wrap;
-        justify-content:center;
+footer{
+
+    height:auto;;
+    width:100vw;
+    background: rgb(22, 22, 22);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(181, 181, 181);
+   
+ 
+    
+    .footer-others{
+
+        width: 90%;;
+        display: flex;
+        justify-content:space-around;
         align-items:center;
-        flex-direction: column;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color:rgb(181, 181, 181);
-     
+        flex-wrap: wrap;
         
-        .footer-others{
 
-            width: 90%;;
-            display: flex;
-            justify-content:space-around;
-            align-items:center;
-            flex-wrap: wrap;
-            
-
-            .footer-logo{
-                height:100px;
-                margin:30px;
-            }
-
-            .contactUs{
-
-                font-size: 20px;;
-                
-               a{
-                text-decoration: none;
-                text-emphasis: none;;
-                color:inherit;
-
-                img{
-
-                    filter: invert(100);
-                    height:40px;
-                    margin:20px;
-                    opacity: 0.5;
-                }
-               }
-            }
+        .footer-logo{
+            height:100px;
+            margin:30px;
         }
 
+        .contactUs{
+
+            font-size: 20px;;
+            
+           a{
+            text-decoration: none;
+            text-emphasis: none;;
+            color:inherit;
+
+            img{
+
+                filter: invert(100);
+                height:40px;
+                margin:20px;
+                opacity: 0.5;
+            }
+           }
+        }
     }
+
 }
