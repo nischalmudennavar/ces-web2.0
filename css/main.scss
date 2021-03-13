@@ -7,6 +7,10 @@ body{
     
 }
 
+.responsive-navbar{
+    display:none;
+}
+
 
 $heading-color:#200542;
 .main-container{
@@ -244,7 +248,8 @@ $heading-color:#200542;
 
             width:80%;
             height:auto;
-           
+            // background: rgb(69, 0, 109);
+            border-radius: 5px;
             display:flex;
             justify-content:space-around;
             align-items:center;
@@ -407,6 +412,7 @@ $heading-color:#200542;
                         h1{
                             text-align: left;;
                             font-size:30px;
+                            line-height:10px;
                             
                             
                         }

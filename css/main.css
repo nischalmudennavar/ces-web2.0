@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+.responsive-navbar {
+  display: none;
+}
+
 .main-container {
   width: 100%;
   height: -webkit-fit-content;
@@ -264,6 +268,7 @@ body {
 .main-container .domains .domain-cards {
   width: 80%;
   height: auto;
+  border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -488,6 +493,7 @@ body {
 .main-container .our-team .executives .riddhi .description .title h1 {
   text-align: left;
   font-size: 30px;
+  line-height: 10px;
 }
 
 .main-container .our-team .executives .riddhi .description .title h4 {
