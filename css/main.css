@@ -614,6 +614,164 @@ body {
   line-height: 1px;
 }
 
+.main-container .events-container {
+  height: auto;
+  width: 100vw;
+}
+
+.main-container .events-container .hero-event {
+  height: 40vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../assets/bg.jpg");
+  color: white;
+}
+
+.main-container .events-container .hero-event .hero-image {
+  width: 80%;
+  bottom: -220px;
+}
+
+.main-container .events-container .hero-event .upcomingEvent {
+  font-family: 'Poppins',sans-serif;
+  font-size: 40px;
+}
+
+.main-container .events-container .hero-event .countdowntoevent {
+  bottom: 70px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+}
+
+.main-container .events-container .hero-event .upevent {
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  background: #c62a88;
+}
+
+.main-container .events-container .hero-event .upevent:hover {
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  -webkit-box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+          box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main-container .events-container .events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.main-container .events-container .events .event-card {
+  height: auto;
+  width: 255px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #eee;
+}
+
+.main-container .events-container .events .event-card:hover img {
+  position: relative;
+  top: -20px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.438);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.438);
+  -webkit-transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+          transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.main-container .events-container .events .event-card .event-image {
+  height: 50%;
+  width: 100%;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border: none;
+  border-radius: 10px;
+}
+
+.main-container .events-container .events .event-card .event-details {
+  text-align: center;
+}
+
+.main-container .events-container .events .event-card .event-details h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container .events-container .events .event-card .event-details p {
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container .events-container .events .event-card .event-details .moreaboutevent {
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  background: #c62a88;
+}
+
+.main-container .events-container .events .event-card .event-details .moreaboutevent:hover {
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
 footer {
   height: auto;
   width: 100vw;
