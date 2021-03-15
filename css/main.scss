@@ -1,9 +1,15 @@
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
 body{
     margin:0;
     padding:0;
-    scroll-snap-type: proximity;
+    
     font-family :'Poppins',san-serif;
     overflow-x: hidden;
+    
+
     
 }
 
@@ -13,7 +19,58 @@ body{
 
 
 $heading-color:#200542;
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    height:70px;
+    width:100%;
+    position:fixed;
+    z-index:999;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #4b006e81;
+    color:white;
+    .nav-left{
+
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        width:25%;
+
+        .nav-link-left{
+            color:white;
+            text-decoration: none;;
+            font-size:15px;
+            font-weight: bold;
+        }
+    }
+    .logo{
+        height:70px;
+        
+        
+    }
+    .nav-right{
+
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        width:25%;
+
+        .nav-link-right{
+            color:white;
+            text-decoration: none;;
+            font-size:15px;
+            font-weight: bold;
+        }
+    }
+
+
+
+}
+
+
 .main-container{
+    
 
     width:100%;
     height:fit-content;
@@ -51,13 +108,7 @@ $heading-color:#200542;
             flex-direction: column;
             // backdrop-filter:blur(20px);
             // background: rgba(194, 194, 194, 0.575);
-            .logo{
-                height:10%;
-                position:absolute;
-                top:20px;;
-                left:50%;
-
-            }
+            
 
             h1{
                 color:#ffffff;
@@ -298,7 +349,7 @@ $heading-color:#200542;
             color:rgb(75, 0, 110);
         }
         .partner-container{
-            width:70%;
+            width:80%;
             height:auto;
            
             display:flex;
@@ -526,13 +577,13 @@ $heading-color:#200542;
 
         min-height:100vh;
         width:100vw;
-        background: rgb(231, 231, 231);
+        background: rgb(228, 228, 228);
         display:flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         .hero-event{
-            height:40vh;
+            height:50vh;
             width:100vw;
             
             display:flex;
