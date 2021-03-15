@@ -33,6 +33,9 @@
   .responsive-navbar .nav-container .link a .link-image {
     height: 40px;
   }
+  .navbar {
+    display: none;
+  }
   .main-container .home-section .overlay {
     display: -webkit-box;
     display: -ms-flexbox;
