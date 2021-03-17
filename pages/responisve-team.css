@@ -86,6 +86,7 @@ footer{
         justify-content:center;
         align-items:center;
         flex-direction: column;
+        position:relative;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:rgb(181, 181, 181);
 }
@@ -132,4 +133,40 @@ footer p.location{
     .main-container{
         overflow-x: hidden;
     }
-  }
+    .responsive-navbar{
+        height:60px;
+        width:100vw;
+        background: rgb(255, 255, 255);
+        box-shadow:0px 0px 100px 10px rgba(0, 0, 0, 0.808);
+        display:block;
+        position:fixed;
+        bottom:0;
+        z-index: 99;
+    }
+    .navlink{
+        width:100vw;
+        height:60px;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+
+    }
+    .link{
+        height:50px;
+        width:50px;
+
+    }
+    .link:hover{
+        transform:scale(1.5);
+
+    }
+     .link-image{
+        height:40px;
+    }
+
+
+    .navbar{
+        display:none;
+        
+    }
+}

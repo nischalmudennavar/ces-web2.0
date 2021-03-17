@@ -21,14 +21,14 @@ body{
 $heading-color:#200542;
 .navbar{
     font-family: 'Poppins', sans-serif;
-    height:70px;
+    height:80px;
     width:100%;
-    position:fixed;
+    position:sticky;
     z-index:999;
     display:flex;
     justify-content:space-around;
     align-items: center;
-    background-color: #4b006e81;
+    background-color: #4b006e;
     color:white;
     .nav-left{
 
@@ -507,72 +507,59 @@ $heading-color:#200542;
         
 
     }
-
     .team{
-        background: rgb(255, 255, 255);
+        height:auto;
+        width:100vw;
         display:flex;
-        justify-content: center;
+        justify-content:center;
         flex-direction: column;
         align-items: center;
-        font-family: 'Poppins', sans-serif;
-        height:auto;
-        padding:30px;
-       
-      
         .theTeam{
-
-            height:100vh;
-            display:flex;
-            margin-top:30px;
-            justify-content: center;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            width:70%;
+            height:auto;
+            width:100vw;
             margin:auto;
             
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap: wrap;
+            position:relative;
+            text-align: center;
 
             .member{
-                height:320px;;
-                width:250px;
-                text-align: center;
+                height:300px;
+                width:300px;
+                // background: rgb(224, 224, 224);
+                margin:20px;
                 display:flex;
-                justify-content: space-between;
+                justify-content:space-around;
                 align-items: center;
                 flex-direction: column;
-                background: rgb(255, 255, 255);
-                border-radius: 20px;;
-                margin:15px;
-                position: relative;
+                position:relative;
                 .job{
-                    height:60px;
-                    position: absolute;
+                    position:absolute;
+                    height:50px;
+                    top:0;
                     left:0;
+
                 }
                 .memavatar{
-                    height:200px;
-                    margin:10px;
-                }
-               .member-title{
+                    height:50%;
+                    padding:10px;
 
+                }
                 h2{
-                    font-size:22px;;
                     line-height:10px;
                 }
                 h3{
-                    font-size:19px;;
-                    line-height:15px;
+                    line-height:10px;
                 }
-                p{
-                    font-size:15px;;
-                    line-height:1px;
-                }
-               }
             }
-
         }
 
-
     }
+
+    
     .events-container {
 
         min-height:100vh;

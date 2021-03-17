@@ -17,9 +17,10 @@ body {
 
 .navbar {
   font-family: 'Poppins', sans-serif;
-  height: 70px;
+  height: 80px;
   width: 100%;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   z-index: 999;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +30,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #4b006e81;
+  background-color: #4b006e;
   color: white;
 }
 
@@ -585,7 +586,8 @@ body {
 }
 
 .main-container .team {
-  background: white;
+  height: auto;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -599,39 +601,36 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Poppins', sans-serif;
-  height: auto;
-  padding: 30px;
 }
 
 .main-container .team .theTeam {
-  height: 100vh;
+  height: auto;
+  width: 100vw;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 70%;
-  margin: auto;
+  position: relative;
+  text-align: center;
 }
 
 .main-container .team .theTeam .member {
-  height: 320px;
-  width: 250px;
-  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -639,36 +638,27 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: white;
-  border-radius: 20px;
-  margin: 15px;
   position: relative;
 }
 
 .main-container .team .theTeam .member .job {
-  height: 60px;
   position: absolute;
+  height: 50px;
+  top: 0;
   left: 0;
 }
 
 .main-container .team .theTeam .member .memavatar {
-  height: 200px;
-  margin: 10px;
+  height: 50%;
+  padding: 10px;
 }
 
-.main-container .team .theTeam .member .member-title h2 {
-  font-size: 22px;
+.main-container .team .theTeam .member h2 {
   line-height: 10px;
 }
 
-.main-container .team .theTeam .member .member-title h3 {
-  font-size: 19px;
-  line-height: 15px;
-}
-
-.main-container .team .theTeam .member .member-title p {
-  font-size: 15px;
-  line-height: 1px;
+.main-container .team .theTeam .member h3 {
+  line-height: 10px;
 }
 
 .main-container .events-container {
