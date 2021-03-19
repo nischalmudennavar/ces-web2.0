@@ -226,5 +226,8 @@
   .main-container .our-team .executives .riddhi .description p {
     text-align: justify;
   }
+  .main-container .events-container {
+    overflow-x: hidden;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */

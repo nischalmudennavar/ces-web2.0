@@ -81,6 +81,7 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  background: #ebebeb;
   overflow-x: hidden;
 }
 
@@ -193,7 +194,7 @@ body {
   width: 100%;
   position: relative;
   height: auto;
-  background: #fafafa;
+  background: #ebebeb;
 }
 
 .main-container .about-section .memphiselements {
@@ -343,10 +344,13 @@ body {
 .main-container .domains .domain-cards .subdomains {
   height: 200px;
   width: 200px;
-  background: whitesmoke;
+  background: #ebebeb;
   padding: 20px;
   color: #292929;
+  -webkit-box-shadow: -10px -10px 50px 0px white, 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: -10px -10px 50px 0px white, 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  border: 1px solid #fff;
   margin: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -664,7 +668,7 @@ body {
 .main-container .events-container {
   min-height: 100vh;
   width: 100vw;
-  background: #e4e4e4;
+  background: gainsboro;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -678,6 +682,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  top: 0;
+  margin-top: -30px;
 }
 
 .main-container .events-container .hero-event {
@@ -756,6 +763,47 @@ body {
       flex-wrap: wrap;
   width: 80%;
   margin-top: 10px;
+}
+
+.main-container .events-container .events .event-modal-1 {
+  height: 50vh;
+  width: 60vw;
+  display: none;
+  position: fixed;
+  border: 1px solid #fff;
+  overflow: auto;
+  top: 10vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: rgba(42, 0, 109, 0.705);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+.main-container .events-container .events .event-modal-1 .close {
+  padding: 15px;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  background: #e728dd;
+}
+
+.main-container .events-container .events .event-modal-1 .modal-content {
+  width: 80%;
+  font-family: 'Poppins', sans-serif;
 }
 
 .main-container .events-container .events .event-card {
