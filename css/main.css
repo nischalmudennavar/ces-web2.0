@@ -150,32 +150,37 @@ body {
   color: white;
   font-family: 'Poppins', sans-serif;
   width: 80%;
-  font-size: 30px;
+  font-size: 35px;
   margin-left: 50px;
 }
 
 .main-container .home-section .overlay .home-content .home-btn {
   border: none;
-  width: 170px;
-  height: 40px;
+  width: 250px;
+  height: 70px;
   outline: none;
-  font-size: 17px;
+  font-size: 24px;
   color: white;
-  border-radius: 5px;
   margin-left: 50px;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
-  background: #c62a88;
+  background: #170068;
+  border: 5px solid #007cc3;
+  border-top: 5px solid #3700ff;
+  border-bottom: 5px solid #3700ff;
+  border-radius: 50px;
 }
 
 .main-container .home-section .overlay .home-content .home-btn:hover {
   cursor: pointer;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
-  -webkit-box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
-          box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  border-left: 5px solid #3700ff;
+  border-right: 5px solid #3700ff;
+  border-top: 5px solid #007cc3;
+  border-bottom: 5px solid #007cc3;
 }
 
 .main-container .home-section .overlay .home-contentTwo {
