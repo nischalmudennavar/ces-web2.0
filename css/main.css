@@ -68,7 +68,7 @@ body {
 .menu-button .menu-icon-line {
   height: 5px;
   width: 50px;
-  background: #00b7ff;
+  background: #32c2d8;
   margin: 10px;
 }
 
@@ -382,7 +382,16 @@ body {
 }
 
 .main-container .domains .domain-cards .subdomains img {
-  width: 100px;
+  width: 50%;
+}
+
+.main-container .domains .domain-cards .subdomains .st1 {
+  height: 230px;
+  width: auto;
+}
+
+.main-container .domains .domain-cards .subdomains .domain-logo {
+  height: 50%;
 }
 
 .main-container .domains .domain-cards .subdomains h2 {
@@ -835,7 +844,7 @@ body {
 footer {
   height: 30vh;
   width: 100vw;
-  background: #161616;
+  background: #0c0036;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -853,7 +862,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #b5b5b5;
+  color: #98fde7;
 }
 
 footer .footer-others {

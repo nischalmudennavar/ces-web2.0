@@ -66,9 +66,9 @@ $heading-color:#200542;
     .menu-icon-line{
         height:5px;
         width:50px;
-        background: rgb(0, 183, 255);
+        background: #32c2d8;
         margin:10px;
-       
+
     }
 }
 
@@ -359,8 +359,16 @@ $heading-color:#200542;
                 align-items:center;
 
                 img{
-                    width:100px;
+                    width:50%;
 
+                }
+                .st1{
+                    height:230px;
+                    width:auto;
+                }
+                .domain-logo{
+                    height:50%;
+                    
                 }
                 h2{
                     text-align:center;
@@ -862,7 +870,7 @@ footer{
 
     height:30vh;;
     width:100vw;
-    background: rgb(22, 22, 22);
+    background: #0c0036;
     display:flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -870,7 +878,7 @@ footer{
     align-items:center;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgb(181, 181, 181);
+    color:#98fde7;
     // border-top-left-radius: 50%;;
     // border-top-right-radius: 50%;;
    
