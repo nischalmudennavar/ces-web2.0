@@ -9,7 +9,7 @@ body{
     font-family :'Poppins',san-serif;
     overflow-x: hidden;
     background-color: rgb(23, 0, 104);
-    
+   
 
     
 }
@@ -23,6 +23,9 @@ $heading-color:#200542;
 .navbar{
 
     display:none;
+    margin:auto;
+    
+
   .nav-container{
     font-family: 'Poppins', sans-serif;
     height:100vh;
@@ -33,7 +36,7 @@ $heading-color:#200542;
     justify-content:space-around;
     align-items: center;
     background-color: rgba(23, 0, 104, 0.555);
-    position:absolute;;
+    position:fixed;;
     backdrop-filter: blur(10px);
     color:white;
     .logo{
@@ -56,15 +59,16 @@ $heading-color:#200542;
 
 }
 .menu-button{
-    position:absolute;
+    position:fixed;
     top:60px;
     right:30px;
+    z-index: 131;
     .menu-icon-line{
         height:5px;
         width:50px;
         background: rgb(0, 183, 255);
         margin:10px;
-        z-index: 11;
+       
     }
 }
 
