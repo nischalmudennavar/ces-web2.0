@@ -624,19 +624,20 @@ $heading-color:#200542;
         
     }
     .team{
-        height:100vh ;
+        min-height:100vh;
+        color:white;
         width:100vw;
         display:flex;
         justify-content:center;
         flex-direction: column;
         align-items: center;
         .theTeam{
-            height:auto;
-            width:100vw;
+            height:auto;;
+            width:70vw;
             margin:auto;
             
             display:flex;
-            justify-content:center;
+            justify-content:space-around;
             align-items:center;
             flex-wrap: wrap;
             position:relative;
@@ -644,19 +645,24 @@ $heading-color:#200542;
 
             .member{
                 height:300px;
-                width:300px;
+                width:250px;
+               
                 // background: rgb(224, 224, 224);
                 margin:20px;
+                overflow: hidden;
                 display:flex;
                 justify-content:space-around;
                 align-items: center;
                 flex-direction: column;
                 position:relative;
+                color:white;
+                
+               
                 .job{
                     position:absolute;
                     height:50px;
-                    top:0;
-                    left:0;
+                    top:10px;
+                    left:10px;;
 
                 }
                 .memavatar{
@@ -669,6 +675,21 @@ $heading-color:#200542;
                 }
                 h3{
                     line-height:10px;
+                }
+                .member-description{
+                    position:absolute;
+                    background: #000;
+                    height:300px;
+                    text-align: justify;
+                    padding:10px;
+                    top:300px;
+                    opacity:0;
+                    transition:all 100ms ease-in ;
+                }
+                &:hover .member-description{
+                    top:0px;
+                    opacity:1;
+                    transition:all 200ms ease-in ;
                 }
             }
         }
@@ -904,13 +925,15 @@ footer{
             text-decoration: none;
             text-emphasis: none;;
             color:inherit;
+            
+            
 
             img{
 
                 filter: invert(100);
                 height:40px;
                 margin:20px;
-                opacity: 0.5;
+                opacity: 1;
             }
            }
         }
