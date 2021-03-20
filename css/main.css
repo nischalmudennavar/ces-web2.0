@@ -63,11 +63,12 @@ body {
   top: 60px;
   right: 30px;
   z-index: 131;
+  cursor: pointer;
 }
 
 .menu-button .menu-icon-line {
-  height: 5px;
-  width: 50px;
+  height: 2px;
+  width: 35px;
   background: #32c2d8;
   margin: 10px;
 }
@@ -382,7 +383,7 @@ body {
 }
 
 .main-container .domains .domain-cards .subdomains img {
-  width: 50%;
+  width: 40%;
 }
 
 .main-container .domains .domain-cards .subdomains .st1 {
@@ -463,7 +464,7 @@ body {
 }
 
 .main-container .partners .partner-container .subdomains img {
-  width: 100px;
+  width: 100%;
 }
 
 .main-container .partners .partner-container .subdomains h2 {
@@ -862,7 +863,7 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #98fde7;
+  color: #98f6fd;
 }
 
 footer .footer-others {

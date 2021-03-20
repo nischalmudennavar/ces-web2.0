@@ -3,7 +3,7 @@ const loadAnimationCes=()=>{
 
     
 
-    // gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger);
     // gsap.from('.hi',{
     //     scale:0,
     // })
