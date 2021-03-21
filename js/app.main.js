@@ -4,6 +4,53 @@ const loadAnimationCes=()=>{
     
 
     gsap.registerPlugin(ScrollTrigger);
+
+
+    // gsap.to("#about-heading", {
+    //     scrollTrigger: {
+    //       trigger: ".about-section",
+    //       scrub: true,
+    //       pin: true,
+    //       start: "center center",
+    //       end: "bottom -100%",
+    //       toggleClass: "active",
+    //       ease: "power2"
+    //     },
+    //     y:-40,
+    //     opacity:0
+      
+      
+        
+    //   });
+
+    var c1 = gsap.timeline({
+  
+            scrollTrigger: {
+            trigger: ".about-section",
+        
+            scrub: true,
+            pin:true,
+            start: "top top",
+            end: "+=100%"
+        }
+        
+        });
+
+        c1.to('#about-heading',{
+            
+            y:-50,
+
+        })
+
+      c1.to('#about-heading',{
+          
+          x:-520,
+          opacity:0,
+
+      })
+
+   
+      
     // gsap.from('.hi',{
     //     scale:0,
     // })
