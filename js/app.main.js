@@ -75,16 +75,16 @@ const loadAnimationCes=()=>{
         
         
     })
-    gsap.from('.home-para',{
-        opacity:0,
-        stagger:0.1,
-    })
-    gsap.to('.home-para',{
-        opacity:1,
-        duration:4
-    })
+    // gsap.from('.home-para',{
+    //     opacity:0,
+    //     stagger:0.1,
+    // })
+    // gsap.to('.home-para',{
+    //     opacity:1,
+    //     duration:4
+    // })
     
-    // gsap.from('.rocket',{
+    // // gsap.from('.rocket',{
     //     rotate:0
     // })
     // gsap.to('.rocket',{
@@ -119,6 +119,8 @@ const loadAnimationCes=()=>{
     //     modal.style.display = "none";
     // }
     // }
+
+
         
         
     var menubtn = document.getElementById("menu-btn");
@@ -136,6 +138,19 @@ const loadAnimationCes=()=>{
             }
 
     }
+
+
+    gsap.from('#form-animate',{
+        opacity: 0,
+        x:-50,
+        stagger:0.5,
+        duration:0.5
+        
+    })
+   gsap.from('#mailimage',{
+       opacity: 0,
+       duration:0.4
+   })
         
     
 

@@ -51,13 +51,16 @@
     .main-container{
         
         .home-section{
+            width:100vw;
+            height:100vh;
+
 
            .overlay{
 
             display:flex;
             justify-content:center;
             align-items:center;
-            width:100vw;
+          
             overflow-x:hidden;
             flex-wrap: wrap;
             flex-direction: column-reverse;
@@ -67,17 +70,56 @@
 
 
             .home-content{
-                
-                width:100%;
-                height:auto;
+
+                width:90%;
+                height:90vh;;
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                position:relative;
+                left:-30px;
+
 
                 h1{
                     font-size:30px;
                 }
                 p{
                     font-size:20px;
-                    width:100%;
-                    text-align: left;
+                    width:90%;
+                    
+                    text-align: center;
+                }
+                .home-btn{
+    
+                    border:none;
+                    width:150px;
+                    height:40px;
+                    outline: none;
+                    font-size:15px;
+                    color:white;
+                    
+                    
+                    transition:all 100ms ease-in;
+                    // background: #170068;
+                    border:2px solid #007cc3;
+                    border-top:2px solid #3700ff;
+                    border-bottom:2px solid #3700ff;
+                    border-radius: 50px;
+                    // background: #c62a88;
+                    background-color: #0f0046;
+                    &:hover{
+                        
+                        cursor: pointer;
+                        transition:all 100ms ease-in;
+                        transform:scale(1.02);
+                        border-left:2px solid #3700ff;
+                        border-right:2px solid #3700ff;
+                        border-top:2px solid rgb(0, 124, 195);
+                        border-bottom:2px solid rgb(0, 124, 195);
+                        
+                    
+    
+                    }
                 }
                 
             }
@@ -274,11 +316,86 @@
             }
 
         }
-    .events-container{
+        .events-container{
 
-        overflow-x: hidden;
+            overflow-x: hidden;
+
+        }
+        .connect-section{
+            height:100vh;;
+            width:100vw;
+            overflow-x:hidden;
+            .form-container{
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+               
+                img{
+                    display:none;
+                }
+                form{
+                    width:80%;
+                    display:flex;
+                    justify-content:space-between;
+                    align-items:center;
+                    flex-direction: column;
+                    position: relative;
+                    input[type="text"]{
+                        height:30px;
+                        font-size:12px;
+                        width:300px;
+                    }
+                    label{
+                        font-size:15px;
+                    }
+                    textarea{
+                        width:300px;
+                        position: relative;
+                        right:5px;
+                    }
+                    .form-btn{
+    
+                        border:none;
+                        width:150px;
+                        height:30px;
+                        outline: none;
+                        font-size:15px;
+                        color:white;
+                        
+                        
+                        transition:all 100ms ease-in;
+                        // background: #170068;
+                        border:2px solid #007cc3;
+                        border-top:2px solid #3700ff;
+                        border-bottom:2px solid #3700ff;
+                        border-radius: 50px;
+                        // background: #c62a88;
+                        background-color: #0f0046;
+                        &:hover{
+                            
+                            cursor: pointer;
+                            transition:all 100ms ease-in;
+                            transform:scale(1.02);
+                            border-left:2px solid #3700ff;
+                            border-right:2px solid #3700ff;
+                            border-top:2px solid rgb(0, 124, 195);
+                            border-bottom:2px solid rgb(0, 124, 195);
+                            
+                        
+        
+                        }
+                    }
+                    
+
+                }
+            }
+        }
 
     }
-
+    footer{
+        height:auto;
+        width:100vw;
     }
 }
