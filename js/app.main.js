@@ -23,7 +23,9 @@ const loadAnimationCes=()=>{
         
     //   });
 
-    var c1 = gsap.timeline({
+   
+
+    var about_animations = gsap.timeline({
   
             scrollTrigger: {
             trigger: ".about-section",
@@ -35,66 +37,30 @@ const loadAnimationCes=()=>{
         }
         
         });
-
-        c1.to('#about-heading',{
+        about_animations.to('.memphiselements',{
             
-            y:-50,
+            y:-10,
+            opacity:0,
+            duration:1,
+
+        })
+        about_animations.to('#about-heading',{
+            
+           
+            duration:1
 
         })
 
-      c1.to('#about-heading',{
+        about_animations.to('#about-heading',{
+            
           
-          x:-520,
-          opacity:0,
+            opacity:0,
+            duration:1,
 
-      })
+        })
+       
 
-   
-      
-    // gsap.from('.hi',{
-    //     scale:0,
-    // })
-    // gsap.to('.hi',{
-    //     scale:1,
-    //     duration:2,
-    //     ease:Back.easeOut.config(2),
-    //     stagger:0.1,
-    //     delay:1
-    // })
 
-    
-    // gsap.from('.objects',{
-    //     scale:0,
-    // })
-    // gsap.to('.objects',{
-    //     scale:1,
-    //     duration:2,
-    //     ease:Back.easeOut.config(2),
-    //     loop:true,
-    //     stagger:0.1,
-        
-    // })
-    // gsap.from('.background',{
-    //     scale:0,
-    // })
-    // gsap.to('.background',{
-    //     scale:1.3,
-    //     duration:1.5,
-    //     ease:Back.easeOut.config(2),
-    //     loop:true,
-    //     stagger:0.1,
-    //     delay:3,
-    // })
-    // gsap.from('.appear',{
-    //   opacity:0,
-    //   duration:2,
-
-    // })
-    // gsap.to('.appear',{
-    //   opacity:1,
-    //   duration:1.5,
-      
-    // })
     gsap.from('.headtext',{
         
         y:-20,
