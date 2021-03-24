@@ -207,85 +207,58 @@
   .main-container .partners .partner-container .subdomains h2 {
     font-size: 15px;
   }
-  .main-container .our-team h1 {
-    font-size: 30px;
-  }
-  .main-container .our-team .executives {
+  .main-container .team .exec-container {
+    width: 90%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .main-container .our-team .executives .chinmay {
-    width: 85%;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
-  .main-container .our-team .executives .chinmay .avatar {
-    height: 200px;
+  .main-container .team .exec-container .exec {
+    height: auto;
+    width: 100%;
+    margin: 20px;
   }
-  .main-container .our-team .executives .chinmay .description {
-    text-align: center;
+  .main-container .team .exec-container .exec .exec-photo {
+    width: 100%;
+    height: auto;
+    margin: 10px;
   }
-  .main-container .our-team .executives .chinmay .description .title h1 {
-    text-align: center;
-    font-size: 20px;
+  .main-container .team .exec-container .exec .exec-photo img {
+    border-radius: 10px;
   }
-  .main-container .our-team .executives .chinmay .description .title h4 {
-    text-align: center;
-    font-size: 18px;
+  .main-container .team .exec-container .exec .exec-description {
+    width: 100%;
+    height: auto;
+    margin: 5px;
   }
-  .main-container .our-team .executives .chinmay .description p {
-    text-align: justify;
+  .main-container .team .exec-container .exec .exec-description .position h1 {
+    width: 100%;
+    font-size: 25px;
+    line-height: 5px;
+    padding: 10px;
   }
-  .main-container .our-team .executives .riddhi {
-    width: 85%;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .main-container .team .exec-container .exec .exec-description .position h2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -10px;
   }
-  .main-container .our-team .executives .riddhi .avatar {
-    height: 200px;
+  .main-container .team .exec-container .exec .exec-description .position p {
+    position: relative;
+    top: -30px;
   }
-  .main-container .our-team .executives .riddhi .description {
-    text-align: center;
-  }
-  .main-container .our-team .executives .riddhi .description .title h1 {
-    text-align: center;
-  }
-  .main-container .our-team .executives .riddhi .description .title h4 {
-    text-align: center;
-  }
-  .main-container .our-team .executives .riddhi .description p {
-    text-align: justify;
+  .main-container .team .theTeam {
+    width: 90vw;
   }
   .main-container .events-container {
     overflow-x: hidden;

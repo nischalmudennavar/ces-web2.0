@@ -700,18 +700,96 @@ $heading-color:#200542;
         
     }
     .team{
-        min-height:100vh;
+        min-height:100vh;;
         color:white;
         width:100vw;
         display:flex;
         justify-content:center;
         flex-direction: column;
         align-items: center;
+        .exec-container{
+
+            height:90vh;
+            width:70vw;
+            // border:1px solid #fff;
+            display:flex;
+            justify-content:flex-start;
+            flex-direction: column;
+            align-items:center;
+
+            .exec{
+                height:50%;
+                width:90%;
+                // border:1px solid #fff;
+                margin:10px;
+                display:flex;
+                justify-content:flex-start;
+                align-items:center;
+                flex-wrap:wrap;
+                font-family: 'Poppins', sans-serif;
+                .exec-photo{
+                    height:85%;
+                    width:300px;;
+                    // border:1px solid #fff;
+                    margin:10px;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                .exec-description{
+                    width:60%;;
+                    // border:1px solid #fff;
+                    height:80%;
+                    margin-top:-35px;
+    
+                    .position{
+                        h1{
+    
+                            font-family: 'Poppins', sans-serif;
+                            color:#ffffff;
+                            line-height: 10px;;
+                            padding:10px;
+    
+                        }h2{
+                            font-size:20px;
+                            line-height: 5px;;
+                            padding:10px;
+                            color:rgba(255, 255, 255, 0.746);
+                        }
+                    }
+                    p{
+                        
+                        text-align: justify;
+                        padding:10px;
+                    }
+                    .exec-socials{
+                        width:200px;
+                        height:50px;
+                        display: flex;;
+                        justify-content:space-around;
+                        align-items:center;
+                        background:rgb(66, 34, 170);
+                        border-radius: 10px;;
+                        margin-top:-20px;
+                        margin-left:10px;
+                        a{
+                            color:white;
+                            font-size:30px;
+                        }
+                    }
+                }
+                
+                
+            }
+
+        }
+       
         .theTeam{
             height:auto;;
-            width:70vw;
+            width:60vw;
             margin:auto;
-            
+            margin-top:50px;
             display:flex;
             justify-content:space-around;
             align-items:center;
@@ -720,18 +798,20 @@ $heading-color:#200542;
             text-align: center;
 
             .member{
-                height:300px;
-                width:250px;
-               
+                height:370px;
+                width:270px;
+                border:1px solid rgba(255, 255, 255, 0.226);
                 // background: rgb(224, 224, 224);
                 margin:20px;
-                overflow: hidden;
+                overflow:hidden;
+                border-radius: 10px;;;
                 display:flex;
-                justify-content:space-around;
+                justify-content:center;
                 align-items: center;
                 flex-direction: column;
                 position:relative;
                 color:white;
+                font-family: 'Poppins', sans-serif;
                 
                
                 .job{
@@ -748,9 +828,32 @@ $heading-color:#200542;
                 }
                 h2{
                     line-height:10px;
+                    font-size:20px;
                 }
                 h3{
                     line-height:10px;
+                    font-size:15px;
+                    color:rgba(255, 255, 255, 0.712);
+                }
+                p{
+                    line-height:10px;
+                    font-size:15px;
+                    color:rgba(255, 255, 255, 0.712);
+                }
+                .socials{
+                    height:50px;
+                    width:80%;
+                    background:rgb(66, 34, 170);
+                    display:flex;
+                    justify-content:center;
+                    align-items: center;
+                    border-radius: 10px;
+                    a{
+                        color:white;
+                        font-size:30px;
+                        text-decoration:none;
+                        margin:20px;
+                    }
                 }
                 .member-description{
                     position:absolute;

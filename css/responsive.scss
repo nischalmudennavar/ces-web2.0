@@ -254,81 +254,67 @@
 
             }
         }
-        .our-team{
-            h1{
-                font-size:30px;
-            }
+        .team{
+            
+            .exec-container{
 
-            .executives{
-
+                width:90%;
+                height:auto;
                 display:flex;
-                justify-content: center;
-                align-items: center;
+                justify-content:center;
                 flex-direction: column;
+                align-items:center;
+                .exec{
 
-                .chinmay{
-                    width:85%;
-                    text-align: center;
-                    display:flex;
-                    justify-content:center;
-                    align-items:center;
-                    flex-wrap: wrap;
-                    .avatar{
-                        height:200px;
+                    height:auto;
+                    width:100%;
+                    margin:20px;
+
+                    .exec-photo{
+                        width:100%;
+                        height:auto;
+                        margin:10px;
+                        img{
+                            border-radius: 10px;
+                        }
                     }
-                    .description{
-                        text-align: center;
-                        .title{
+                    .exec-description{
+
+                        width:100%;
+                        height:auto;
+                        margin:5px;
+                        .position{
+                            
                             h1{
-                                text-align: center;
-                                font-size:20px;
+                                
+                                width:100%;
+                                font-size:25px;
+                                line-height:5px;
+                                padding:10px;
                                 
                             }
-                            h4{
-    
-                                text-align:center;
-                                font-size:18px;
+                            h2{
+                                
+                                font-size:15px;
+                                line-height:20px;
+                                margin-top:-10px;
                                 
                             }
+                            p{
+                                position:relative;
+                                top:-30px;
+                            }
                         }
-                        p{
-                            text-align: justify;
-                        }
-                    }
 
+                    }
                 }
-                .riddhi{
-                    width:85%;
-                    text-align: center;
-                    display:flex;
-                    justify-content:center;
-                    align-items:center;
-                    flex-wrap: wrap;
-                    .avatar{
-                        height:200px;
-                    }
-                    .description{
-                        text-align: center;
-                        .title{
-                            h1{
-                                text-align: center;
-                                
-                            }
-                            h4{
-    
-                                text-align:center;
-                                
-                            }
-                        }
-                        p{
-                            text-align: justify;
-                        }
-                    }
-
-                }
-
 
             }
+
+            .theTeam{
+                width:90vw;
+            }
+
 
         }
         .events-container{

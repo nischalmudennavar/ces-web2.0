@@ -632,10 +632,105 @@ body {
           align-items: center;
 }
 
+.main-container .team .exec-container {
+  height: 90vh;
+  width: 70vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .team .exec-container .exec {
+  height: 50%;
+  width: 90%;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container .team .exec-container .exec .exec-photo {
+  height: 85%;
+  width: 300px;
+  margin: 10px;
+}
+
+.main-container .team .exec-container .exec .exec-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container .team .exec-container .exec .exec-description {
+  width: 60%;
+  height: 80%;
+  margin-top: -35px;
+}
+
+.main-container .team .exec-container .exec .exec-description .position h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  line-height: 10px;
+  padding: 10px;
+}
+
+.main-container .team .exec-container .exec .exec-description .position h2 {
+  font-size: 20px;
+  line-height: 5px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.746);
+}
+
+.main-container .team .exec-container .exec .exec-description p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.main-container .team .exec-container .exec .exec-description .exec-socials {
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #4222aa;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.main-container .team .exec-container .exec .exec-description .exec-socials a {
+  color: white;
+  font-size: 30px;
+}
+
 .main-container .team .theTeam {
   height: auto;
-  width: 70vw;
+  width: 60vw;
   margin: auto;
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -651,15 +746,18 @@ body {
 }
 
 .main-container .team .theTeam .member {
-  height: 300px;
-  width: 250px;
+  height: 370px;
+  width: 270px;
+  border: 1px solid rgba(255, 255, 255, 0.226);
   margin: 20px;
   overflow: hidden;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -669,6 +767,7 @@ body {
           flex-direction: column;
   position: relative;
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .main-container .team .theTeam .member .job {
@@ -685,10 +784,42 @@ body {
 
 .main-container .team .theTeam .member h2 {
   line-height: 10px;
+  font-size: 20px;
 }
 
 .main-container .team .theTeam .member h3 {
   line-height: 10px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.main-container .team .theTeam .member p {
+  line-height: 10px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.main-container .team .theTeam .member .socials {
+  height: 50px;
+  width: 80%;
+  background: #4222aa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+.main-container .team .theTeam .member .socials a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 20px;
 }
 
 .main-container .team .theTeam .member .member-description {
