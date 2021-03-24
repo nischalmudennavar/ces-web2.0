@@ -773,9 +773,15 @@ $heading-color:#200542;
                         border-radius: 10px;;
                         margin-top:-20px;
                         margin-left:10px;
+                        transition:all 100ms ease-in ;
                         a{
                             color:white;
                             font-size:30px;
+                            &:hover{
+                                transform:scale(1.5);
+                                color:#ff43b4;
+                                transition:all 100ms ease-in ;
+                            }
                         }
                     }
                 }
@@ -829,15 +835,18 @@ $heading-color:#200542;
                 h2{
                     line-height:10px;
                     font-size:20px;
+                    letter-spacing:2px;
                 }
                 h3{
                     line-height:10px;
                     font-size:15px;
+                   
                     color:rgba(255, 255, 255, 0.712);
                 }
                 p{
                     line-height:10px;
                     font-size:15px;
+                    letter-spacing:1px;
                     color:rgba(255, 255, 255, 0.712);
                 }
                 .socials{
@@ -848,28 +857,34 @@ $heading-color:#200542;
                     justify-content:center;
                     align-items: center;
                     border-radius: 10px;
+                    
                     a{
                         color:white;
                         font-size:30px;
                         text-decoration:none;
                         margin:20px;
+                       i{
+                           cursor:pointer;
+                       }
+                        
                     }
                 }
                 .member-description{
                     position:absolute;
                     background: #000;
-                    height:300px;
+                    height:100%;
                     text-align: justify;
                     padding:10px;
                     top:300px;
                     opacity:0;
                     transition:all 100ms ease-in ;
+                    display:none;
                 }
-                &:hover .member-description{
-                    top:0px;
-                    opacity:1;
-                    transition:all 200ms ease-in ;
-                }
+                // &:hover .member-description{
+                //     top:0px;
+                //     opacity:1;
+                //     transition:all 200ms ease-in ;
+                // }
             }
         }
 
@@ -880,7 +895,7 @@ $heading-color:#200542;
 
         min-height:100vh;
         width:100vw;
-        background: rgb(220, 220, 220);
+        background: #170068;
         display:flex;
         justify-content: center;
         flex-direction: column;
@@ -898,7 +913,7 @@ $heading-color:#200542;
             flex-direction: column;
             overflow: hidden;
             position:relative;
-            background-image: url('../assets/bg.jpg');
+            // background-image: url('../assets/bg.jpg');
             color:white;
             .hero-image{
                
@@ -970,7 +985,7 @@ $heading-color:#200542;
                 padding:20px;
                 .close{
 
-                    padding:15px;
+                    padding:10px;
                     float: right;;
                     position:absolute;
                     right:0;
@@ -1000,7 +1015,7 @@ $heading-color:#200542;
                 align-items:center;
                 background:rgb(243, 243, 243);
 
-                box-shadow:-10px -10px 20px 0px rgb(255, 255, 255),10px 10px 20px 0px rgba(0, 0, 0,0.2);
+                box-shadow:-10px -10px 20px 0px rgba(255, 255, 255, 0.123),10px 10px 20px 0px rgba(0, 0, 0,0.2);
 
                 &:hover img{
                     position:relative;
@@ -1037,8 +1052,7 @@ font-style: normal;
                     .moreaboutevent{
                         
                             border:none;
-                            
-                            padding:10px;
+                            padding:7px;
                             outline: none;
                             font-size:17px;
                             color:white;
@@ -1057,7 +1071,7 @@ font-style: normal;
 
                     }
                 }
-               
+
             }
 
         }

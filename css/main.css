@@ -719,11 +719,21 @@ body {
   border-radius: 10px;
   margin-top: -20px;
   margin-left: 10px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
 }
 
 .main-container .team .exec-container .exec .exec-description .exec-socials a {
   color: white;
   font-size: 30px;
+}
+
+.main-container .team .exec-container .exec .exec-description .exec-socials a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  color: #ff43b4;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
 }
 
 .main-container .team .theTeam {
@@ -785,6 +795,7 @@ body {
 .main-container .team .theTeam .member h2 {
   line-height: 10px;
   font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .main-container .team .theTeam .member h3 {
@@ -796,6 +807,7 @@ body {
 .main-container .team .theTeam .member p {
   line-height: 10px;
   font-size: 15px;
+  letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.712);
 }
 
@@ -822,29 +834,27 @@ body {
   margin: 20px;
 }
 
+.main-container .team .theTeam .member .socials a i {
+  cursor: pointer;
+}
+
 .main-container .team .theTeam .member .member-description {
   position: absolute;
   background: #000;
-  height: 300px;
+  height: 100%;
   text-align: justify;
   padding: 10px;
   top: 300px;
   opacity: 0;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
-}
-
-.main-container .team .theTeam .member:hover .member-description {
-  top: 0px;
-  opacity: 1;
-  -webkit-transition: all 200ms ease-in;
-  transition: all 200ms ease-in;
+  display: none;
 }
 
 .main-container .events-container {
   min-height: 100vh;
   width: 100vw;
-  background: gainsboro;
+  background: #170068;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -881,7 +891,6 @@ body {
           flex-direction: column;
   overflow: hidden;
   position: relative;
-  background-image: url("../assets/bg.jpg");
   color: white;
 }
 
@@ -968,7 +977,7 @@ body {
 }
 
 .main-container .events-container .events .event-modal-1 .close {
-  padding: 15px;
+  padding: 10px;
   float: right;
   position: absolute;
   right: 0;
@@ -1002,8 +1011,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: #f3f3f3;
-  -webkit-box-shadow: -10px -10px 20px 0px white, 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: -10px -10px 20px 0px white, 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 0.123), 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 0.123), 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .main-container .events-container .events .event-card:hover img {
@@ -1044,7 +1053,7 @@ body {
 
 .main-container .events-container .events .event-card .event-details .moreaboutevent {
   border: none;
-  padding: 10px;
+  padding: 7px;
   outline: none;
   font-size: 17px;
   color: white;
