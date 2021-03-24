@@ -213,20 +213,35 @@
                 
             }
         }
+        .testimonials{
+
+            .swiper-container{
+                width:90vw;
+                .swiper-slide{
+                    width:100vw;
+                }
+
+
+            }
+
+        }
+
 
         .partners{
+            height:auto;
             h1{
                 font-size:30px;
             }
             .partner-container{
                 width:100%;
+                justify-content:space-around;
                 .subdomains{
 
                     height:80px;
-                    width:70px;
+                    width:100px;
 
                     img{
-                        width:50px;
+                        width:100px;
                         height:auto;
 
                     }

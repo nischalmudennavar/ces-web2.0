@@ -107,7 +107,14 @@
                     Building a generation that is viral in enabling impact & change! <span id="miniglobe">🌏</span>
                 </p>
                 <button  class="home-btn">
-                    Tell me more <span class="rocket"> ➡️</span>
+                    
+                    
+                    <span class="btn-fill">
+
+                    </span>
+                    <span class="btn-text">
+                        Tell me more
+                    </span>
                 </button>
               </div>
            <div class="home-contentTwo" style="overflow:visible" >
@@ -1457,8 +1464,28 @@
   },
 
   // And if we need scrollbar
+  breakpoints: {
+        '@0.00': {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        '@0.75': {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        '@1.00': {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        '@1.50': {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
  
 });
+
+    
     
     loadAnimationCes();
    

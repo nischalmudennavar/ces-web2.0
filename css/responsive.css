@@ -179,18 +179,29 @@
   .main-container .domains .domain-cards .subdomains h2 {
     font-size: 15px;
   }
+  .main-container .testimonials .swiper-container {
+    width: 90vw;
+  }
+  .main-container .testimonials .swiper-container .swiper-slide {
+    width: 100vw;
+  }
+  .main-container .partners {
+    height: auto;
+  }
   .main-container .partners h1 {
     font-size: 30px;
   }
   .main-container .partners .partner-container {
     width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .main-container .partners .partner-container .subdomains {
     height: 80px;
-    width: 70px;
+    width: 100px;
   }
   .main-container .partners .partner-container .subdomains img {
-    width: 50px;
+    width: 100px;
     height: auto;
   }
   .main-container .partners .partner-container .subdomains h2 {
