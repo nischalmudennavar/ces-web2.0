@@ -46,6 +46,10 @@
     width: 100vw;
     height: 100vh;
   }
+  .main-container .home-section .hero-image {
+    height: 100vh;
+    width: auto;
+  }
   .main-container .home-section .overlay {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -160,8 +164,7 @@
     width: 90%;
     text-align: justify;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-family: adobe-garamond-pro, serif;
   }
   .main-container .domains .domain-cards {
     width: 100%;

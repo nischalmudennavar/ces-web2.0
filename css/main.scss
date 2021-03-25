@@ -90,7 +90,7 @@ $heading-color:#200542;
     width:100%;
     height:fit-content;
     background-color: rgb(23, 0, 104);
-    
+    position:relative;
     overflow-x: hidden;
 
     .section{
@@ -100,17 +100,26 @@ $heading-color:#200542;
 
         height:100vh;
         z-index: 1;
-        
         background-repeat: no-repeat;
         background-size:cover;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+        .hero-image{
+
+            width:100%;
+            position:absolute;
+
+        }
 
        .overlay{
 
             height:100%;
             width:100vw; // 
-            
+          
             z-index: 3;
-            background-color: rgba(23, 0, 104, 0.8);
+            background-color: rgba(23, 0, 104, 0.219);
             display:flex;
             justify-content: center;
             align-items:center;
@@ -287,7 +296,7 @@ $heading-color:#200542;
             font-family: 'Poppins', sans-serif;
             color:#ffffff;
             // text-decoration: underline 3px rgba(101, 0, 216, 0.316) ;
-            
+            font-weight:200;
             
             
 
@@ -379,13 +388,13 @@ $heading-color:#200542;
         flex-direction: column;
         text-align: justify;
         background-color: rgb(23, 0, 104);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Poppins', sans-serif;
         h1{
             
             font-size: 55px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Poppins', sans-serif;
             color:#ffffff;
-            font-weight: 400;
+            font-weight: 200;
             
         }
         p{
@@ -462,20 +471,24 @@ $heading-color:#200542;
         flex-direction: column;
         height:100vh;
         background-color: rgb(23, 0, 104);
+
         h1{
             font-size: 55px;
             font-family: 'Poppins', sans-serif;
             color:#ffffff;
+            font-weight:200;
+
         }
         .partner-container{
+
             width:60%;
             height:auto;
-           
             display:flex;
             justify-content:space-around;
             align-items:center;
             flex-wrap: wrap;
             margin-top:10px;
+
             .subdomains{
 
                 height:200px;
@@ -637,6 +650,7 @@ $heading-color:#200542;
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
+
         h1{
             color:white;
             font-size:55px;
@@ -646,11 +660,11 @@ $heading-color:#200542;
             height: 30vh;
             color:white;
             
-          
+
             .swiper-wrapper{
+
                 width:100%;
-                
-               
+
                 .swiper-slide{
                     display:flex;
                     justify-content: center;
@@ -662,7 +676,7 @@ $heading-color:#200542;
                 }
                 
             }
-          }
+        }
 
         #totheblog{
 
@@ -744,6 +758,7 @@ $heading-color:#200542;
                     margin-top:-35px;
     
                     .position{
+
                         h1{
     
                             font-family: 'Poppins', sans-serif;
@@ -764,6 +779,7 @@ $heading-color:#200542;
                         padding:10px;
                     }
                     .exec-socials{
+
                         width:200px;
                         height:50px;
                         display: flex;;
@@ -774,6 +790,7 @@ $heading-color:#200542;
                         margin-top:-20px;
                         margin-left:10px;
                         transition:all 100ms ease-in ;
+
                         a{
                             color:white;
                             font-size:30px;
@@ -792,6 +809,7 @@ $heading-color:#200542;
         }
        
         .theTeam{
+
             height:auto;;
             width:60vw;
             margin:auto;
@@ -804,6 +822,7 @@ $heading-color:#200542;
             text-align: center;
 
             .member{
+
                 height:370px;
                 width:270px;
                 border:1px solid rgba(255, 255, 255, 0.226);
@@ -821,6 +840,7 @@ $heading-color:#200542;
                 
                
                 .job{
+
                     position:absolute;
                     height:50px;
                     top:10px;
@@ -850,6 +870,7 @@ $heading-color:#200542;
                     color:rgba(255, 255, 255, 0.712);
                 }
                 .socials{
+
                     height:50px;
                     width:80%;
                     background:rgb(66, 34, 170);
@@ -863,13 +884,14 @@ $heading-color:#200542;
                         font-size:30px;
                         text-decoration:none;
                         margin:20px;
-                       i{
-                           cursor:pointer;
-                       }
+                        i{
+                            cursor:pointer;
+                        }
                         
                     }
                 }
                 .member-description{
+
                     position:absolute;
                     background: #000;
                     height:100%;
@@ -903,7 +925,9 @@ $heading-color:#200542;
         position:relative;
         top:0;
         margin-top:-30px;
+
         .hero-event{
+
             height:50vh;
             width:100vw;
             
@@ -915,8 +939,9 @@ $heading-color:#200542;
             position:relative;
             // background-image: url('../assets/bg.jpg');
             color:white;
+
             .hero-image{
-               
+            
                 width:80%;bottom:-220px;
 
 
@@ -934,17 +959,16 @@ $heading-color:#200542;
             }
             .upevent{
     
-                border:none;
-                
+                border:none; 
                 padding:10px;
                 outline: none;
                 font-size:17px;
                 color:white;
                 border-radius: 5px;;
-               margin-top:20px;
+                margin-top:20px;
                 transition:all 100ms ease-in;
-                
                 background: #c62a88;
+
                 &:hover{
                     
                     cursor: pointer;
@@ -952,18 +976,22 @@ $heading-color:#200542;
                     box-shadow: 0px 0px 120px 5px rgba(105, 0, 226, 0.705);
                     transform:scale(1.1);
                 }
-                }
+            }
 
 
 
         }
         .events{
+
             padding-bottom:30px;
             display:flex;
             justify-content:center;
             align-items: center;
             flex-wrap: wrap;
             width:80%;
+            font-family: 'Poppins',sans-serif;
+
+
             .event-modal-1{
 
                 height:50vh;
@@ -1002,11 +1030,12 @@ $heading-color:#200542;
             }
             
             margin-top:10px;
+
             .event-card{
+
                 height:auto;;
                 width:255px;
                 padding:10px;
-                
                 border-radius: 10px;
                 margin:20px;
                 display:flex;
@@ -1014,13 +1043,12 @@ $heading-color:#200542;
                 flex-direction:column;
                 align-items:center;
                 background:rgb(243, 243, 243);
-
                 box-shadow:-10px -10px 20px 0px rgba(255, 255, 255, 0.123),10px 10px 20px 0px rgba(0, 0, 0,0.2);
 
                 &:hover img{
+
                     position:relative;
                     top:-20px;
-                    
                     box-shadow:0px 10px 20px 0px rgba(0, 0, 0, 0.438);
                     transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
                     transition:all 500ms ease;
@@ -1036,18 +1064,18 @@ $heading-color:#200542;
                     border-radius: 10px;;
                 }
                 .event-details{
+
                     text-align: center;
+
                     h2{
                         font-family: 'Poppins', sans-serif;
                     }
                     p{
                         text-align: justify;
                         font-size:15px;
-                        font-family: adobe-garamond-pro, serif;
-
-font-weight: 400;
-
-font-style: normal;
+                        font-family: 'Poppins',sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
                     }
                     .moreaboutevent{
                         
@@ -1057,10 +1085,9 @@ font-style: normal;
                             font-size:17px;
                             color:white;
                             border-radius: 5px;;
-                            
                             transition:all 100ms ease-in;
-                            
                             background: #c62a88;
+                            
                             &:hover{
                                 
                                 cursor: pointer;
@@ -1070,6 +1097,20 @@ font-style: normal;
                             }
 
                     }
+                }
+                .event-date{
+
+                    position:relative;
+                    font-family: 'Poppins',sans-serif;
+                    height:30px;
+                    top:10px;
+                    font-size:15px;
+                    color:rgba(0, 0, 0, 0.65);
+                    width:100%;
+                    display:flex;
+                    justify-content:flex-start;
+                    align-items:center;
+                    font-weight: 600;
                 }
 
             }
@@ -1096,6 +1137,7 @@ font-style: normal;
             align-items:center;
             background: rgba(0, 0, 0, 0.116);
             border-radius: 5px;
+
             #mai1{
 
                 width:50%;
@@ -1109,7 +1151,7 @@ font-style: normal;
                 
                 height:70%;
                 width:90%;
-                // border:1px solid #fff;
+                
                 display:flex;
                 justify-content:space-between;
                 align-items:flex-start;
