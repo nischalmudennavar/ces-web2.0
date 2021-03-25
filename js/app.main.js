@@ -29,7 +29,6 @@ const loadAnimationCes=()=>{
   
             scrollTrigger: {
             trigger: ".about-section",
-        
             scrub: true,
             pin:true,
             start: "top top",
@@ -37,6 +36,7 @@ const loadAnimationCes=()=>{
         }
         
         });
+        
         about_animations.to('.memphiselements',{
             
             y:-10,
@@ -56,23 +56,25 @@ const loadAnimationCes=()=>{
           
             opacity:0,
             duration:1,
+            stagger:0.4
+
 
         })
+        
+       
        
 
-
-    gsap.from('.headtext',{
-        
-        y:-20,
-        stagger:0.1,
+    gsap.from('#hero-text',{
         opacity:0,
-        duration:0.3,
        
+       
+        
     })
-    gsap.to('.headtext',{
+    gsap.to('#hero-text',{
+        opacity:1,
+        duration:2,
         
-        y:20,
-        
+
         
     })
     // gsap.from('.home-para',{
