@@ -659,8 +659,10 @@ $heading-color:#200542;
         align-items: center;
 
         h1{
-            color:white;
+            font-family: 'Poppins', sans-serif;
+            color:#ffffff;
             font-size:55px;
+
         }
         .swiper-container {
             width:70vw;
@@ -671,13 +673,32 @@ $heading-color:#200542;
             .swiper-wrapper{
 
                 width:100%;
+                overflow:visible;
 
                 .swiper-slide{
                     display:flex;
-                    justify-content: center;
+                    justify-content: space-around;
                     align-items: center;
                     background-color: #0f0046;
                     border-radius: 10px;;
+                    flex-direction:column;
+                   .comments{
+                       text-align:center;
+                       height: 80%;
+                       width:90%;
+                       background: rgba(65, 169, 181, 0.5);
+                       border-radius:10px;
+                       h1{
+                        line-height:1px;
+                    }
+                    h2{
+                        line-height:1px;
+                    }
+                    p{
+                        
+                        font-size:20px;
+                    }
+                   }
                     
 
                 }
