@@ -43,6 +43,12 @@ body {
   color: white;
 }
 
+.navbar .nav-container #closenav {
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+
 .navbar .nav-container .logo {
   height: 200px;
 }
@@ -51,6 +57,15 @@ body {
   font-size: 40px;
   margin: 30px;
   list-style: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar .nav-container .links li:hover {
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar .nav-container .links li a {
@@ -67,8 +82,8 @@ body {
 }
 
 .menu-button .menu-icon-line {
-  height: 2px;
-  width: 35px;
+  height: 5px;
+  width: 45px;
   background: #32c2d8;
   margin: 10px;
 }
@@ -231,7 +246,7 @@ body {
   -webkit-transition: all 150ms ease-in;
   transition: all 150ms ease-in;
   border-radius: 50px;
-  background: #c62a88b2;
+  background: #c62a88;
 }
 
 .main-container .home-section .overlay .home-contentTwo {
@@ -581,6 +596,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-size: 55px;
+  font-weight: 200;
 }
 
 .main-container .testimonials .swiper-container {
@@ -603,7 +619,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #0f0046;
+  background-color: #0f004600;
   border-radius: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -615,7 +631,7 @@ body {
   text-align: center;
   height: 80%;
   width: 90%;
-  background: rgba(65, 169, 181, 0.5);
+  background: #000429;
   border-radius: 10px;
 }
 

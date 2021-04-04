@@ -1,30 +1,8 @@
 const loadAnimationCes=()=>{
 
 
-    
-
+  
     gsap.registerPlugin(ScrollTrigger);
-
-
-    // gsap.to("#about-heading", {
-    //     scrollTrigger: {
-    //       trigger: ".about-section",
-    //       scrub: true,
-    //       pin: true,
-    //       start: "center center",
-    //       end: "bottom -100%",
-    //       toggleClass: "active",
-    //       ease: "power2"
-    //     },
-    //     y:-40,
-    //     opacity:0
-      
-      
-        
-    //   });
-
-   
-
     var about_animations = gsap.timeline({
   
             scrollTrigger: {
@@ -35,7 +13,7 @@ const loadAnimationCes=()=>{
             end: "+=100%"
         }
         
-        });
+    });
         
         about_animations.to('.memphiselements',{
             
@@ -77,51 +55,6 @@ const loadAnimationCes=()=>{
 
         
     })
-    // gsap.from('.home-para',{
-    //     opacity:0,
-    //     stagger:0.1,
-    // })
-    // gsap.to('.home-para',{
-    //     opacity:1,
-    //     duration:4
-    // })
-    
-    // // gsap.from('.rocket',{
-    //     rotate:0
-    // })
-    // gsap.to('.rocket',{
-    //     rotate:330,
-    //     repeat:-1
-    // })
-
-    // const textanim = new TimeLine();
-
-        
-    // var modal = document.getElementById("modal-1");
-
-    // // // Get the button that opens the modal
-    // var btn = document.getElementById("event-modal-1");
-
-    // // // Get the <span> element that closes the modal
-    // var span = document.getElementsByClassName("close")[0];
-
-    // // // When the user clicks on the button, open the modal
-    // btn.onclick = function() {
-    // modal.style.display = "block";
-    // }
-
-    // // When the user clicks on <span> (x), close the modal
-    // span.onclick = function() {
-    // modal.style.display = "none";
-    // }
-
-    // // When the user clicks anywhere outside of the modal, close it
-    // window.onclick = function(event) {
-    // if (event.target == modal) {
-    //     modal.style.display = "none";
-    // }
-    // }
-
 
         
         
