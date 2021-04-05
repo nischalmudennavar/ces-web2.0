@@ -92,6 +92,14 @@ body {
   margin: 10px;
 }
 
+.main-logo {
+  position: absolute;
+  height: 100px;
+  z-index: 2;
+  top: 40px;
+  left: 50px;
+}
+
 .main-container {
   width: 100%;
   height: -webkit-fit-content;
