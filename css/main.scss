@@ -9,7 +9,7 @@ body{
     padding:0;
   
     overflow-x: hidden;
-    background-color: rgb(23, 0, 104);
+    background-color: #170068;
 
 
     
@@ -101,9 +101,10 @@ $heading-color:#200542;
 .main-logo{
     position:absolute;
     height:100px;
-    z-index:2;
+    z-index:4;
     top:40px;
     left:50px;
+    opacity:1;
    
 }
 .main-container{
@@ -1192,7 +1193,7 @@ $heading-color:#200542;
 
             #mai1{
 
-                width:50%;
+                width:40%;
                 overflow:hidden;
                 height:100%;
                 border: 1px solid #fff;;

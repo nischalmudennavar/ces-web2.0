@@ -44,6 +44,11 @@
 
     }
     
+    .main-logo{
+        height:70px;
+        top:50px;
+        filter: brightness(100);
+    }
 
     .main-container{
         
@@ -326,6 +331,7 @@
         .events-container{
 
             overflow-x: hidden;
+            margin-top:50px;
 
         }
         .connect-section{

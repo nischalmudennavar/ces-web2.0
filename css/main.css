@@ -95,9 +95,10 @@ body {
 .main-logo {
   position: absolute;
   height: 100px;
-  z-index: 2;
+  z-index: 4;
   top: 40px;
   left: 50px;
+  opacity: 1;
 }
 
 .main-container {
@@ -1203,7 +1204,7 @@ body {
 }
 
 .main-container .connect-section .form-container #mai1 {
-  width: 50%;
+  width: 40%;
   overflow: hidden;
   height: 100%;
   border: 1px solid #fff;

@@ -29,6 +29,12 @@
     margin: 10px;
     font-weight: 100;
   }
+  .main-logo {
+    height: 70px;
+    top: 50px;
+    -webkit-filter: brightness(100);
+            filter: brightness(100);
+  }
   .main-container .home-section {
     width: 100vw;
     height: 100vh;
@@ -258,6 +264,7 @@
   }
   .main-container .events-container {
     overflow-x: hidden;
+    margin-top: 50px;
   }
   .main-container .connect-section {
     height: 100vh;
