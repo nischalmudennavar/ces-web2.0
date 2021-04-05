@@ -39,14 +39,17 @@ $heading-color:#200542;
     display:flex;
     justify-content:space-around;
     align-items: center;
+    flex-wrap:wrap;
     background-color: rgba(23, 0, 104, 0.555);
     position:fixed;;
     backdrop-filter: blur(10px);
     color:white;
+    text-align: center;
     #closenav{
         position:absolute;
         right:50px;
         top:40px;
+        cursor:pointer;
 
     }
     .logo{
@@ -86,8 +89,8 @@ $heading-color:#200542;
 
     .menu-icon-line{
 
-        height:5px;
-        width:45px;
+        height:3px;
+        width:35px;
         background: #32c2d8;
         margin:10px;
         

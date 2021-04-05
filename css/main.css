@@ -36,17 +36,21 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: rgba(23, 0, 104, 0.555);
   position: fixed;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   color: white;
+  text-align: center;
 }
 
 .navbar .nav-container #closenav {
   position: absolute;
   right: 50px;
   top: 40px;
+  cursor: pointer;
 }
 
 .navbar .nav-container .logo {
@@ -82,8 +86,8 @@ body {
 }
 
 .menu-button .menu-icon-line {
-  height: 5px;
-  width: 45px;
+  height: 3px;
+  width: 35px;
   background: #32c2d8;
   margin: 10px;
 }
